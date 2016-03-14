@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html ng-app='matrix'>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>自适应布局</title>
+  <link href="css/zishiy.css" rel="stylesheet" type="text/css">
+  <!--
+  <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $('*[original-title]').hover(function(event){
+        //var target = event.target || event.srcElement;
+        //var val = $(this).attr("original-title");
+        //if (val){
+          $(this).find('.tooltip').css('display','block');
+        //}
+      },function(event){
+       // var target = event.target || event.srcElement;
+        //var val = $(this).attr("original-title");
+        //if (val){
+          $(this).find('.tooltip').css('display','none');
+        //}
+      });
+//      $('.JQ_swoman').hover(function(){
+//        $(this).find('.tooltip').css('display','block');
+//      },function(){
+//        $(this).find('.tooltip').css('display','none');
+//      })
+    })
+  </script>
+  -->
+</head>
+<body>
+<div class="container">
+  <div class="topbar">
+    <div class="tpwelcm">
+      <span class="welcm">欢迎使用乐视纵横！</span>
+    </div>
+    <div class="tpbar_user">
+      <div class="usr_loged">
+        <a href="#">luolita</a>
+        <a href="#" class="lnk_out"><span>退出</span></a>
+        <a href="#" class="lnk_out"><span>帮助中心</span></a>
+        <a href="#" class="lnk_out"><span>乐视大数据</span></a>
+        <a></a>
+      </div>
+      <div class="usr_unlog"></div>
+    </div>
+  </div>
+  <!--Topbar End-->
+  <div class="header">
+    <div class="logo">
+    <a href="#">乐视纵横</a></div>
+    <div class="naver">
+      <ul class="nav_list">
+        <li><a href="" ui-sref='overview'>生态概览</a></li>
+        <li><a href="#/internet" ui-sref='internet'>互联网</a></li>
+        <li><a href="#/phone" ui-sref='phone'>超级手机</a></li>
+        <li><a href="#/tv" ui-sref='tv'>超级电视</a></li>
+        <li><a href="#/movie" ui-sref='movie'>影视互联</a></li>
+        <li><a href="#/sport" ui-sref='sport'>乐视体育</a></li>
+        <li><a href="#/finance" ui-sref='finance'>互联网金融</a></li>
+        <li><a href="#/car" ui-sref='car'>超级汽车</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--Header End-->
+  <div class="main">
+    <div ui-view="menu" class="sidebar">
+
+    </div>
+    <div class="rightbar" ui-view="container">
+  </div>
+  <!--Main End-->
+  <div class="footer">
+    <div class="wrap">
+      <div class="copy">Copyright © 2004-2016 乐视网（letv.com）All rights reserved.</div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="lib/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="lib/angular/angular.js"></script>
+<script type="text/javascript" src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+<script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="lib/bower-website-ui/js/website-ui.js"></script>
+<script type="text/javascript" src="lib/echarts/dist/echarts.js"></script>
+<script type="text/javascript" src="build/js/all.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "person-site",
+  "version": "0.1.0",
+  "description": "Benjamin's web site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shangmin1990/personal-web-site.git"
+  },
+  "devDependencies": {
+    "browser-sync": "^1.1.2",
+    "del": "^0.1.1",
+    "gulp": "~3.6.2",
+    "gulp-load-plugins": "^0.5.3",
+    "gulp-imagemin": "^0.6.1",
+    "gulp-jshint": "^1.6.3",
+    "gulp-concat": "~2.2.0",
+    "gulp-uglify": "~0.3.0",
+    "gulp-cssmin": "~0.1.5"
+  },
+  "engines":{
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "Benjamin",
+    "web-site"
+  ],
+  "author": "Benjamin",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}

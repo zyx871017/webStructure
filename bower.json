@@ -1,0 +1,13 @@
+{
+  "name": "matrix",
+  "version": "0.1.0",
+  "authors": [
+    "Benjamin, Wang yanli"
+  ],
+  "description": "乐视纵横2期项目",
+  "dependencies":{
+    "bower-website-ui": "master",
+    "angular-ui-router": "~0.2.10",
+    "echarts": "3.1.2"
+  }
+}

@@ -1,0 +1,38 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,hr,p,pre,dl,dt,dd,ul,ol,li,th,td,form,fieldset,legend,button,input,textarea{margin:0;padding:0;}h1,h2,h3,h4,h5,h6,button,input,select,textarea{font-size:100%;font-weight:normal;}li{list-style:none;}img,fieldset{border:0;}table{border-collapse:collapse;border-spacing:0;}em,i{font-style:normal;}u,ins{text-decoration:none;}:focus{outline:none;}
+body {font:14px/1.5 tahoma,arial,\5b8b\4f53;background:#fff;color:#777;word-break:break-all;word-wrap:break-word;}
+a {color:#3d84b8;text-decoration:none;}
+a:hover {text-decoration:underline;}
+.wrap {width:1200px;margin:0 auto;}
+.wrap, .clearfix {*zoom:1;}
+.wrap:after, .clearfix:after {content:'';display:block;height:0;clear:both;}
+.b {font-weight:bold;}
+.u {text-decoration:underline;}
+
+.topbar{ height: 30px; background:#2e2e2e; height:30px; overflow: hidden;*zoom:1}
+.topbar .tpbar_l { margin-top:3px;float:left;}
+.topbar .tpbar_l .welcom{width:125px; color:#ffffff; }
+.topbar .tpbar_usr{width:100px;margin-top:3px;float:right;}
+.topbar .tpbar_usr .lnk_out span{margin-left:5px}
+.topbar .tpbar_usr .lnk_out:before {content:'';margin-top:8px; border-left:1px solid #a0a0a0;height:10px; font-size:0;position:absolute }
+.topbar .tpbar_usr a {color:#a0a0a0}
+
+.header{ border-bottom:1px solid #d0d0d0;}
+.header .logo{ width: 145px; height:60px; line-height:60px; font-size: 20px; float:left}
+.header .naver{width:680px;height:60px;float:left}
+.header .naver .navlist{overflow: hidden;*zoom:1}
+.header .naver .navlist li{float:left;height:60px; line-height:60px; margin-right: 64px;}
+.header .navlist li a {color: #333}
+.header .navlist li a:hover{text-decoration:none}
+
+.main{ overflow: hidden;*zoom:1}
+.zongh_side{width:198px; height:740px; float: left; border:1px solid #d0d0d0;}
+.zongh_side .menu_list{margin-top: 10px}
+.zongh_side .menu_list li{ height: 35px; line-height: 35px; margin-left: 20px}
+.zongh_side .menu_list li a { color: #333}
+.zongh_main{width:998px; height:740px; float: left; border-right: 1px solid #d0d0d0; border-bottom:1px solid #d0d0d0; }
+.zongh_main .zongh_first{ overflow: hidden;*zoom:1}
+.zongh_main .zleft {width:400px; height:380px; float: left; border: 1px solid #f00}
+.zongh_main .zright{width:580px; height: 380px; float: right; border: 1px solid #d0d0d0}
+.zongh_main .zongh_third{ height: 300px; margin-top: 20px; border: 1px solid #d0d0d0 }
+

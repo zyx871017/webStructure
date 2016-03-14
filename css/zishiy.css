@@ -1,0 +1,68 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,hr,p,pre,dl,dt,dd,ul,ol,li,th,td,form,fieldset,legend,button,input,textarea{margin:0;padding:0;}h1,h2,h3,h4,h5,h6,button,input,select,textarea{font-size:100%;font-weight:normal;}li{list-style:none;}img,fieldset{border:0;}table{border-collapse:collapse;border-spacing:0;}em,i{font-style:normal;}u,ins{text-decoration:none;}:focus{outline:none;}
+body {font:14px/1.5 Microsoft Yahei,tahoma,arial,\5b8b\4f53;background:#fff;color:#777;word-break:break-all;word-wrap:break-word;}
+a {color:#3d84b8;text-decoration:none;}
+a:hover {text-decoration:underline;}
+.wrap {width:1200px;margin:0 auto;}
+.wrap, .clearfix {*zoom:1;}
+.wrap:after, .clearfix:after {content:'';display:block;height:0;clear:both;}
+.b {font-weight:bold;}
+.u {text-decoration:underline;}
+
+/*Topbar*/
+.topbar{height:30px; background: #2e2e2e; overflow: hidden;*zoom:1}
+.topbar .tpwelcm{width:128px; margin:3px 0 0 100px; float:left}
+.topbar .tpwelcm .welcm {color:#d0d0d0;}
+.topbar .tpbar_user{width:230px; margin:3px 80px 0 0; float:right}
+.topbar .tpbar_user a {color: #d0d0d0}
+.topbar .tpbar_user .lnk_out:before{content:'';margin-top:8px; border-left:1px solid #a0a0a0;height:10px; font-size:0;position:absolute}
+.topbar .tpbar_user .lnk_out span {margin-left: 5px;}
+/*Header*/
+.header { height:60px;border-bottom: 1px solid #d0d0d0; background:#4f5e71;  overflow: hidden;*zoom:1}
+.header .logo {width:145px; margin:15px 0 0 100px; font-size: 20px; float:left}
+.header .logo a { color: #fff;}
+.header .naver{width:850px;  margin-left:100px;float:left; overflow: hidden}
+.header .naver li {height:60px; line-height: 60px; margin-right:58px; float:left}
+.header .naver li a {color:#fff; font-size: 16px;}
+/*Main*/
+.main{position: relative; height:auto;background: #fff url("../images/sidebar.jpg") repeat-y;}
+.sidebar{width:240px; height:740px; /*border:1px solid #d0d0d0;background:#4f5e71;*/  position: absolute;top:0;left:0;}
+.sidebar ul li {margin:20px 0 0 20px;}
+.sidebar ul li a{ color: #fff}
+.sidebar ul li a:hover{ text-decoration:none }
+.rightbar{height:auto; margin-left:240px; margin-right:50px;/*border:1px solid #d0d0d0;*/}
+
+.rightbar .hd_tit{ height: 30px; line-height: 30px; margin-left: 20px; border-bottom: 1px solid #d0d0d0}
+.rightbar .hd_tit .tit { font-size: 16px}
+.rightbar .first {height:400px;overflow: hidden;*zoom:1}
+.rightbar .firt_left {width:42%; height:400px; float: left; border:1px solid #ff0000; overflow: hidden}
+.rightbar .firt_left .tit { height:40px; line-height:40px; font-size:18px; padding-left:20px;background-color:#edf3f8}
+.firt_left .sex {width:380px; height:207px;  margin:80px auto 0}
+.firt_left .sex:after{content:'';display:block;height:0;clear:both;}
+.firt_left .s_man{width:132px; height:207px; float:left;/*overflow: hidden;*zoom:1*/}
+.firt_left  .ico {width:29px; height:80px; margin:118px 20px 0 0; float:left}
+.firt_left  .ico img{width:29px; height:80px;}
+.firt_left  .sexgram {width:80px;height:207px; position:relative; float: left}
+.firt_left  .sexbar {width:80px;height:90%; position: relative; margin-top:27px; background: #eceffa;}
+.firt_left .s_woman { width:132px; height:207px; margin-left:40px;float:left;/*overflow: hidden;*zoom:1*/}
+.firt_left .sexgram .val{width:100%; position: absolute;left:0;bottom: 0;}
+.firt_left  .s_man .sexgram .val{ background:#6698ff;}
+.firt_left  .s_woman .sexgram .val{ background:#bc9af3}
+.firt_left .tooltip {width:50px; height:20px; line-height: 20px; background:#000; position:absolute;top:5px;left:20px; text-align:center;display:none;cursor:pointer;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;  }
+.firt_left .tooltip .tip { color:#fff;}
+.firt_left .scale{ height:200px; float: right;position:relative;top:20px}
+.scale .scale_list{margin-top:5px}
+.scale .scale_list li{width:55px; height:34px; font:12px/1.8 verdana,arial }
+.rightbar .firt_right{width:55%;height: 400px;float:right;margin-left:20px; border: 1px solid #3d84b8}
+.rightbar .second {width:100%;height: 400px; border: 1px solid #ff0000}
+.rightbar .third {height:550px; border: 1px solid #d0d0d0}
+
+
+.firt_left  .tooltip:after,.firt_left  .tooltip:before{ position:absolute;content:"";height:0;
+  width: 0;pointer-events: none;border: solid transparent;}
+.firt_left  .tooltip:after{border-color: rgba(0, 0, 0, 0);border-top-color: #000;border-width: 4px;
+  left: 60%;top:20px;margin-left: -10px;}
+.firt_left  .tooltip:before{border-color: rgba(194, 225, 245, 0);border-top-color: #c2e1f5;
+  border-width: 5px;left: 60%;top:20px; margin-left: -11px;}
+/*Footer*/
+.footer{height: 40px; line-height: 40px; background:#2e2e2e; text-align: center}
