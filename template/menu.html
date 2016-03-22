@@ -1,0 +1,22 @@
+<ul class="menu_list">
+    <!--<li ng-repeat="item in childMenu">-->
+        <!--<a ng-if="!item.href" ng-click="toggleMenu();">{{item.name}}</a>-->
+        <!--<a ng-if="!!item.href" href="{{item.href}}">{{item.name}}</a>-->
+        <!--<ul ng-if="!item.children"  class="side-sub-list">-->
+            <!--<li ng-repeat="child in item.children" class="side-item">-->
+                <!--<a href="{{child.href}}" >{{child.name}}</a>-->
+            <!--</li>-->
+        <!--</ul>-->
+    <!--</li>-->
+
+    <li ng-repeat="item in data">
+        <a ng-if="!item.href" ng-click="toggleMenu();">{{item.name}}</a>
+        <a ng-if="!!item.href" href="{{item.href}}">{{item.name}}</a>
+        <ul ng-if="!!item.children"  class="side-sub-list">
+            <li ng-repeat="child in item.children" class="side-item">
+                <a href="{{child.href}}" >{{child.name}}</a>
+            </li>
+        </ul>
+        <!--{{item.name}}-->
+    </li>
+</ul>

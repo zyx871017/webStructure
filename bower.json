@@ -8,6 +8,10 @@
   "dependencies":{
     "bower-website-ui": "master",
     "angular-ui-router": "~0.2.10",
-    "echarts": "3.1.2"
+    "echarts": "3.1.2",
+    "angular-ui-bootstrap-bower": ""
+  },
+  "resolutions": {
+    "angular": "1.5.2"
   }
 }

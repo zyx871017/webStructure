@@ -21,8 +21,8 @@ a:hover {text-decoration:underline;}
 .header { height:60px;border-bottom: 1px solid #d0d0d0; background:#4f5e71;  overflow: hidden;*zoom:1}
 .header .logo {width:145px; margin:15px 0 0 100px; font-size: 20px; float:left}
 .header .logo a { color: #fff;}
-.header .naver{width:850px;  margin-left:100px;float:left; overflow: hidden}
-.header .naver li {height:60px; line-height: 60px; margin-right:58px; float:left}
+.header .naver{width:850px;  margin-left:100px;float:left; overflow: hidden;min-height: 60px}
+.header .naver li {height:60px; line-height: 60px; margin-right:40px; float:left}
 .header .naver li a {color:#fff; font-size: 16px;}
 /*Main*/
 .main{position: relative; height:auto;background: #fff url("../images/sidebar.jpg") repeat-y;}

@@ -13,7 +13,7 @@ angular.module("matrix.service",[])
         }
       }
     }])
-    .factory('EchartsService', ['$document', function($document){
+    .factory('EchartsService', ['$document','$http','restResource', function($document){
     	var echarts_div = $document.find('#echarts_div');
     	var myChart = echarts.init(echarts_div[0]);
 
